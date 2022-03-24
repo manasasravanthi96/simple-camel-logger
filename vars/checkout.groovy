@@ -8,6 +8,6 @@ def checkout_code(tag_name, Project_url){
 			userRemoteConfigs: [[credentialsId: 'code-commit-user', url: "${Project_url}"]]
 		])
 }
-def checkout(project_url){
+def checkout1(project_url){
 	sh 'git clone ${project_url}'
 }
