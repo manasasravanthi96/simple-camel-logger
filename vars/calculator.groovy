@@ -1,3 +1,3 @@
-def add(x,y){
-	echo "addition of x and y are ${x+y}"
+def call(x,y){
+ echo "addition of x and y are ${x+y}"
 }
