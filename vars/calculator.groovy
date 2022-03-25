@@ -4,3 +4,6 @@ def add(x,y){
 def mul(x,y){
   echo "mul of $x and $y is ${x*y}" 
 }
+def call(x,y){
+  echo "x value is ${x} and y value is ${y}"
+}
